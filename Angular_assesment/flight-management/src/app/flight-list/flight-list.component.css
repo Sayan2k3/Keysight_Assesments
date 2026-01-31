@@ -1,0 +1,11 @@
+.on-time {
+  color: green;
+}
+
+.delayed {
+  color: orange;
+}
+
+.cancelled {
+  color: red;
+}

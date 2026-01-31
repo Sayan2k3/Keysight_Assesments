@@ -1,0 +1,43 @@
+{
+  "flights": [
+    {
+      "id": 1,
+      "flightNo": "A212C01",
+      "airline": "SpiceJET",
+      "from": "CCU",
+      "to": "IXB",
+      "time": "2025-01-20T10:30",
+      "price": 6500,
+      "status": "On Time"
+    },
+    {
+      "id": "a0d6"
+    },
+    {
+      "id": "ff76",
+      "flightNo": "B87CD",
+      "airline": "INDIGO",
+      "from": "CCU",
+      "to": "BXR",
+      "price": 60000,
+      "status": "On Time"
+    },
+    {
+      "id": "96f7"
+    },
+    {
+      "id": "e397",
+      "flightNo": "C875EE",
+      "airline": "INDIFO",
+      "from": "CCU",
+      "to": "BLR",
+      "time": "2026-01-21T17:15"
+    },
+    {
+      "id": "4ddf"
+    },
+    {
+      "id": "b122"
+    }
+  ]
+}

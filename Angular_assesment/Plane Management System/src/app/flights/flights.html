@@ -1,0 +1,7 @@
+<h2>Flight List</h2>
+<ul>
+    <li *ngFor="let flight of flights">
+        {{ flight.flightNo }} ({{ flight.origin }} -> {{ flight.destination }})
+        - <a [routerLink]="['/flights', flight.id]">View Details</a>
+    </li>
+</ul>

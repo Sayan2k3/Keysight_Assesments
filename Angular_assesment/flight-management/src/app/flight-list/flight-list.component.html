@@ -1,0 +1,22 @@
+<ul>
+  <li *ngFor="let flight of flights"
+      [ngClass]="{
+        'on-time': flight.status === 'On Time',
+        'delayed': flight.status === 'Delayed',
+        'cancelled': flight.status === 'Cancelled'
+      }">
+
+    <strong>{{ flight.number }}</strong> |
+    {{ flight.source }} → {{ flight.destination }} |
+    {{ flight.time }}
+
+    <span *ngIf="flight.status === 'Delayed'">
+      Flight is delayed
+    </span>
+
+    <span *ngIf="flight.status === 'Cancelled'">
+       Flight is cancelled
+    </span>
+
+  </li>
+</ul>

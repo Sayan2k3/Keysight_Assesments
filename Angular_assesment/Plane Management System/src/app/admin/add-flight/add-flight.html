@@ -1,0 +1,16 @@
+<h3>Add New Flight</h3>
+<form (ngSubmit)="add()">
+    <div>
+        <label>Flight No:</label>
+        <input [(ngModel)]="flightNo" name="flightNo" placeholder="e.g. AI-101" required>
+    </div>
+    <div>
+        <label>Origin:</label>
+        <input [(ngModel)]="origin" name="origin" placeholder="Origin" required>
+    </div>
+    <div>
+        <label>Destination:</label>
+        <input [(ngModel)]="destination" name="destination" placeholder="Destination" required>
+    </div>
+    <button type="submit">Add Flight</button>
+</form>

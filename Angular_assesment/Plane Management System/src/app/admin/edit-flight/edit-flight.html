@@ -1,0 +1,16 @@
+<h3>Edit Flight</h3>
+<form *ngIf="flight" (ngSubmit)="update()">
+    <div>
+        <label>Flight No:</label>
+        <input [(ngModel)]="flight.flightNo" name="flightNo" required>
+    </div>
+    <div>
+        <label>Origin:</label>
+        <input [(ngModel)]="flight.origin" name="origin" required>
+    </div>
+    <div>
+        <label>Destination:</label>
+        <input [(ngModel)]="flight.destination" name="destination" required>
+    </div>
+    <button type="submit">Update Flight</button>
+</form>

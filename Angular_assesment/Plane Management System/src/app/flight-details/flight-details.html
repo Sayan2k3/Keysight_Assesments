@@ -1,0 +1,5 @@
+<h2>Flight Details</h2>
+<p *ngIf="flightId">Details for Flight ID: {{ flightId }}</p>
+<p *ngIf="!flightId">Flight not found.</p>
+
+<a routerLink="/flights">Back to Flights</a>
